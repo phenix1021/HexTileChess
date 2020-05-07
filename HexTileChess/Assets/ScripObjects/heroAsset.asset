@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: heroAsset
+  m_EditorClassIdentifier: Assembly-CSharp::HeroAsset
+  heros:
+  - heroID: 1
+    groupID: 0
+    name: BonesDragon
+    desc: "\u5316\u9AA8\u9F99"
+    prefab: {fileID: 1030234638933070, guid: 13ae5510a3e47af4e97cb2868a008479, type: 2}
+    speed: 4
+    attack: 0
+    defend: 0
+    move: 5
+    canFly: 1
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 1
+    furySkill: 5
+    counterSkill: 0
+  - heroID: 2
+    groupID: 0
+    name: Archer
+    desc: "\u4EBA\u7C7B\u5F13\u7BAD\u624B"
+    prefab: {fileID: 1181970254505906, guid: e1f77daf2a1d49a4cb06d0e4715fc419, type: 2}
+    speed: 2
+    attack: 0
+    defend: 0
+    move: 2
+    canFly: 0
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 3
+    furySkill: 0
+    counterSkill: 0
+  - heroID: 3
+    groupID: 0
+    name: Witch
+    desc: "\u5973\u5DEB"
+    prefab: {fileID: 1244981525562378, guid: 95cb784c1bf4f0d4aa75afcb15acf3d9, type: 2}
+    speed: 1
+    attack: 0
+    defend: 0
+    move: 2
+    canFly: 0
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 4
+    furySkill: 0
+    counterSkill: 0
+  - heroID: 8
+    groupID: 0
+    name: LightInfantry
+    desc: "\u4EBA\u7C7B\u957F\u77DB\u624B"
+    prefab: {fileID: 1298483429178094, guid: 1246d0c0c8d36e845b33f6426c786d7b, type: 2}
+    speed: 2
+    attack: 0
+    defend: 0
+    move: 2
+    canFly: 0
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 1
+    furySkill: 0
+    counterSkill: 0
+  - heroID: 9
+    groupID: 0
+    name: HeavyInfantry
+    desc: "\u4EBA\u7C7B\u91CD\u5251\u624B"
+    prefab: {fileID: 1235146637891558, guid: 77829b22d5f7a7d4ea945707e3798ca7, type: 2}
+    speed: 2
+    attack: 0
+    defend: 0
+    move: 2
+    canFly: 0
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 1
+    furySkill: 0
+    counterSkill: 0
+  - heroID: 11
+    groupID: 0
+    name: MountainDragon
+    desc: "\u5C71\u9F99"
+    prefab: {fileID: 1977293110548830, guid: 3a36521031a17754999f81e149d16c90, type: 2}
+    speed: 4
+    attack: 0
+    defend: 0
+    move: 5
+    canFly: 1
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 1
+    furySkill: 2
+    counterSkill: 0
+  - heroID: 13
+    groupID: 0
+    name: Cavalry
+    desc: "\u4EBA\u7C7B\u9A91\u58EB"
+    prefab: {fileID: 1527411249710860, guid: 672eb55520478df43ad177cf9938885e, type: 2}
+    speed: 3
+    attack: 0
+    defend: 0
+    move: 3
+    canFly: 0
+    maxFury: 3
+    counterCount: 0
+    normalSkill: 1
+    furySkill: 0
+    counterSkill: 0

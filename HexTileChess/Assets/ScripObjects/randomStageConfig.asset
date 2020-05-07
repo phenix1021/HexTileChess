@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: randomStageConfig
+  m_EditorClassIdentifier: Assembly-CSharp::RandomStageConfigAsset
+  stages:
+  - stageID: 1
+    gridID: 1
+    terrains:
+    - terrainType: 1
+      percent: 20
+    - terrainType: 2
+      percent: 15
+    - terrainType: 3
+      percent: 15
+    - terrainType: 4
+      percent: 20
+    chunkMaxPercentSize: 6
+    redHeroCount: 5
+    blueHeroCount: 5

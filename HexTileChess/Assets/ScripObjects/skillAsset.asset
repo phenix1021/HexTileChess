@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: skillAsset
+  m_EditorClassIdentifier: Assembly-CSharp::SkillAsset
+  skills:
+  - skillID: 1
+    name: "\u9F99\u7259"
+    desc: 
+    useRange: 1
+    effectRange: 0
+    effectVal: 50
+    animPrepareTime: 0
+    animEffectStartTime: 1
+    animEffectKeepTime: 0
+    animFinalizeTime: 1
+    projectile: {fileID: 0}
+    fx: {fileID: 0}
+    fxImpact: {fileID: 0}
+  - skillID: 2
+    name: "\u9F99\u7130"
+    desc: 
+    useRange: 6
+    effectRange: 0
+    effectVal: 0
+    animPrepareTime: 0
+    animEffectStartTime: 2
+    animEffectKeepTime: 4
+    animFinalizeTime: 2
+    projectile: {fileID: 0}
+    fx: {fileID: 1752420169560238, guid: a5cd79e71c069d84bb1f6407b37e6a18, type: 2}
+    fxImpact: {fileID: 1216716523715244, guid: ae7db504c94576e4ba48e2396b901fa9, type: 2}
+  - skillID: 3
+    name: "\u5C04\u7BAD"
+    desc: 
+    useRange: 5
+    effectRange: 0
+    effectVal: 50
+    animPrepareTime: 0
+    animEffectStartTime: 1
+    animEffectKeepTime: 0
+    animFinalizeTime: 1
+    projectile: {fileID: 100000, guid: 9c6fdf69f00217149a3a933cbf8cac5d, type: 2}
+    fx: {fileID: 0}
+    fxImpact: {fileID: 0}
+  - skillID: 4
+    name: "\u95EA\u7535"
+    desc: 
+    useRange: 5
+    effectRange: 0
+    effectVal: 50
+    animPrepareTime: 0
+    animEffectStartTime: 0.76
+    animEffectKeepTime: 0
+    animFinalizeTime: 1
+    projectile: {fileID: 100000, guid: 9c6fdf69f00217149a3a933cbf8cac5d, type: 2}
+    fx: {fileID: 1002957593859550, guid: 9dfb000fa0bcf014d867212c7ddb1089, type: 2}
+    fxImpact: {fileID: 1189912161249998, guid: 9d8b8f89b1676ef4b957e74250fee546, type: 2}
+  - skillID: 5
+    name: "\u9F99\u971C"
+    desc: 
+    useRange: 6
+    effectRange: 0
+    effectVal: 50
+    animPrepareTime: 0
+    animEffectStartTime: 2
+    animEffectKeepTime: 4
+    animFinalizeTime: 2
+    projectile: {fileID: 0}
+    fx: {fileID: 1954159792802724, guid: 9567a3828211c1143ad3cce80d3bad7e, type: 2}
+    fxImpact: {fileID: 1807618113805718, guid: aee18090ea548114591533902337a86d, type: 2}
