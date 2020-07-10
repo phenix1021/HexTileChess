@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 3936bd857d1d0f64f8c53c14b66ce576, type: 3}
   m_Name: heroAsset
-  m_EditorClassIdentifier: Assembly-CSharp::HeroAsset
+  m_EditorClassIdentifier: 
   heros:
   - heroID: 1
     groupID: 0
@@ -22,14 +22,14 @@ MonoBehaviour:
     defend: 0
     move: 5
     canFly: 1
-    maxFury: 3
+    maxFury: 0
     counterCount: 0
     normalSkill: 1
     furySkill: 5
     counterSkill: 0
   - heroID: 2
     groupID: 0
-    name: Archer
+    name: Arhcer
     desc: "\u4EBA\u7C7B\u5F13\u7BAD\u624B"
     prefab: {fileID: 1181970254505906, guid: e1f77daf2a1d49a4cb06d0e4715fc419, type: 2}
     speed: 2
@@ -37,7 +37,7 @@ MonoBehaviour:
     defend: 0
     move: 2
     canFly: 0
-    maxFury: 3
+    maxFury: 0
     counterCount: 0
     normalSkill: 3
     furySkill: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
     defend: 0
     move: 5
     canFly: 1
-    maxFury: 3
+    maxFury: 0
     counterCount: 0
     normalSkill: 1
     furySkill: 2

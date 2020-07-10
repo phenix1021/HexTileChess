@@ -9,9 +9,9 @@ public class HexGridAgent : HexGridComponent<HexTileAgent>
     public HexTileAgent TileAgentOnPointer { get; private set; }
 
     [SerializeField]
-    GameObject _tileFlagPrefab;     // tile标识（如当前hero、可到达tile、可选择敌人、可攻击地点）prefab
+    GameObject _tileFlagPrefab = null;     // tile标识（如当前hero、可到达tile、可选择敌人、可攻击地点）prefab
     [SerializeField]
-    Material _selectedFlagMat, _reachableFlagMat, _attackableFlagMat, _attackPointFlagMat;
+    Material _selectedFlagMat = null, _reachableFlagMat = null, _attackableFlagMat = null, _attackPointFlagMat = null;
 
     List<HexTileAgent> _reachableTiles = new List<HexTileAgent>();
     List<HexTileAgent> _attackableTiles = new List<HexTileAgent>();

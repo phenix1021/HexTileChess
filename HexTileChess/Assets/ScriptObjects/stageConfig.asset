@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 43d994aaf4eac7540ad7a2f2061ac6ff, type: 3}
   m_Name: stageConfig
-  m_EditorClassIdentifier: Assembly-CSharp::StageConfigAsset
+  m_EditorClassIdentifier: 
   stages:
   - stageID: 1
     gridID: 1
@@ -50,10 +50,10 @@ MonoBehaviour:
         _q: 0
         _r: 0
         _s: 0
-      heroID: 2
+      heroID: 1
     blueHeros:
     - coords:
         _q: 6
         _r: -9
         _s: 3
-      heroID: 3
+      heroID: 11

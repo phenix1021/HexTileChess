@@ -8,13 +8,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: d19ccf60a23cb864daacdeb3971a5386, type: 3}
   m_Name: stageGrid
-  m_EditorClassIdentifier: Assembly-CSharp::StageGridAsset
+  m_EditorClassIdentifier: 
   grids:
   - gridID: 1
     gridParams:
-      basePos: {x: -7.2, y: 0.6, z: 5.3}
+      basePos: {x: 0, y: 0, z: 0}
       horizontalTilesCount: 9
       verticalTilesCount: 7
       tileOrientation: 0

@@ -37,10 +37,11 @@ public class Hero : TurnBasedClient//<HeroProp>
     public Transform fxPoint;  // 武器特效部位
     public Transform hitPoint; // 受击部位
 
-    public void Init(HeroTemplate tp, CombatSide side)
+    public void Init(HeroTemplate tp, CombatSide side, bool isAI)
     {
         this.side = side;
         this.tp = tp;
+        this.isAI = isAI;
         _normalSkillTP = StageMgr.Instance.skillAsset.GetData(tp.normalSkill);
         _furySkillTP = StageMgr.Instance.skillAsset.GetData(tp.furySkill);
         _counterSkillTP = StageMgr.Instance.skillAsset.GetData(tp.counterSkill);

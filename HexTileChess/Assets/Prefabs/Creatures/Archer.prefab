@@ -81,8 +81,6 @@ GameObject:
   - component: {fileID: 4708046179535684}
   - component: {fileID: 95603710589677318}
   - component: {fileID: 114707451775773200}
-  - component: {fileID: 114192365991486878}
-  - component: {fileID: 114990989775675978}
   m_Layer: 0
   m_Name: Archer
   m_TagString: Untagged
@@ -845,17 +843,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114192365991486878
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1181970254505906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcd1fef4be845fd42ac5bc33bfc5d6e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114707451775773200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -870,7 +857,7 @@ MonoBehaviour:
   priority: 0
   turnSkip: 0
   turnCompleted: 0
-  _isAI: 0
+  isAI: 0
   tileComp: {fileID: 0}
   side: 0
   tp:
@@ -895,17 +882,6 @@ MonoBehaviour:
   _level: 1
   fxPoint: {fileID: 0}
   hitPoint: {fileID: 4472743429064762}
---- !u!114 &114990989775675978
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1181970254505906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3151dbaca32dd1541b60fd7176d6e921, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!137 &137131060282987572
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

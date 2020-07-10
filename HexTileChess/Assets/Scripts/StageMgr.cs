@@ -37,17 +37,17 @@ public class StageMgr : Singleton<StageMgr>
         // 加载红方成员
         foreach (var item in stageData.redHeros)
         {
-            CreateHero(item, CombatSide.RED);
+            CreateHero(item, CombatSide.RED, false);
         }
 
         // 加载蓝方成员
         foreach (var item in stageData.blueHeros)
         {
-            CreateHero(item, CombatSide.BLUE);
+            CreateHero(item, CombatSide.BLUE, true);
         }
     }
 
-    void CreateHero(HeroLayout heroLayout, CombatSide side)
+    void CreateHero(HeroLayout heroLayout, CombatSide side, bool isAI)
     {
         // 创建实例
         HeroTemplate heroTP = heroAsset.GetData(heroLayout.heroID);
@@ -56,7 +56,7 @@ public class StageMgr : Singleton<StageMgr>
         go.transform.position = tileAgent.tile.Center;
         go.transform.forward = (side == CombatSide.RED ? Vector3.right : - Vector3.right);
         Hero hero = go.GetComponent<Hero>();
-        hero.Init(heroTP, side);
+        hero.Init(heroTP, side, isAI);
         hero.tileComp = tileAgent;
         tileAgent.hero = hero;
         // 加入战斗
@@ -165,11 +165,11 @@ public class StageMgr : Singleton<StageMgr>
             heroLayout.heroID = heros[i].heroID;
             if (i < redCount)
             {
-                CreateHero(heroLayout, CombatSide.RED);
+                CreateHero(heroLayout, CombatSide.RED, false);
             }
             else
             {
-                CreateHero(heroLayout, CombatSide.BLUE);
+                CreateHero(heroLayout, CombatSide.BLUE, true);
             }
         }        
     }
@@ -268,9 +268,9 @@ public class StageMgr : Singleton<StageMgr>
     // Use this for initialization
     void Start()
     {
-        //StartCoroutine(LoadRandomStage(1));
-        LoadStage(1);
-        CombatMgr.Instance.StartCombat();        
+        StartCoroutine(LoadRandomStage(1));
+        //LoadStage(1);
+        //CombatMgr.Instance.StartCombat();        
     }
 
     

@@ -28,10 +28,12 @@ public class test : MonoBehaviour
 {
     MinHeap<int> _minHeap = new MinHeap<int>((x, y) => { return x.CompareTo(y); });
 
+    public StageConfigAsset asset1;   // 关卡配置表    
+    public ScriptableObject asset2;   // 关卡配置表    
 
     // Use this for initialization
     void Start()
-    {
+    {/*
         LZY m = new LZY();
         LZY n = new LZY();
         m.a = 1;
@@ -40,7 +42,8 @@ public class test : MonoBehaviour
         h.Add(m);
         h.Add(n);
         Debug.Log(m == n);
-        Debug.Log(m.Equals(n));
+        Debug.Log(m.Equals(n));*/
+        
     }
 
     // Update is called once per frame

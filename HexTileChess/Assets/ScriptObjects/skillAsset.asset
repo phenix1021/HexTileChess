@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 82a4e7cbdc307204aac90145b075f323, type: 3}
   m_Name: skillAsset
-  m_EditorClassIdentifier: Assembly-CSharp::SkillAsset
+  m_EditorClassIdentifier: 
   skills:
   - skillID: 1
     name: "\u9F99\u7259"
