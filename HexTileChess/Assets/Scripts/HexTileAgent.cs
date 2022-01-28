@@ -8,10 +8,12 @@ public class HexTileAgent : HexTileComponent, AStarNode<HexTileAgent>
     public Hero hero;    
     public MeshRenderer[] terrainRenderers;    // 地形子对象的MeshRenderer组件
 
+    /*--------- 配合AStar优化的数据结构 -------------*/
     public HexTileAgent Parent { get; set; }
     public AStarNodeStatus Status { get; set; }
     public float G { get; set; }
     public int PathCacheIdx { get; set; }
+    /*----------------------------------------------*/
 
     bool _isTransparent = false;
 
@@ -25,6 +27,7 @@ public class HexTileAgent : HexTileComponent, AStarNode<HexTileAgent>
         DoTerrainTransparent();             
     }
 
+    // 针对hero处于树林中时对树林进行半透明处理
     void DoTerrainTransparent()
     {
         if (terrainTP.terrainType == TerrainType.WOODS)

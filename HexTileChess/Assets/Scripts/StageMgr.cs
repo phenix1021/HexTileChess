@@ -210,7 +210,7 @@ public class StageMgr : Singleton<StageMgr>
             GameObject terrain = Instantiate(tile.terrainTP.prefab);
             terrain.transform.SetParent(tile.transform);
             terrain.transform.position = tile.transform.position;            
-            terrain.transform.eulerAngles = new Vector3(0, Random.Range(0, 360), 0);
+            //terrain.transform.eulerAngles = new Vector3(0, Random.Range(0, 360), 0);
 
             tile.terrainRenderers = terrain.GetComponentsInChildren<MeshRenderer>();
         }

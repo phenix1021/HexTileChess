@@ -1,167 +1,485 @@
 fileFormatVersion: 2
 guid: 11adb799863176b4eaf6b085eb3d8135
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: WITCH
-    100004: WITCH_STICK
-    100006: WITCH_
-    100008: WITCH_ Head
-    100010: WITCH_ L Calf
-    100012: WITCH_ L Clavicle
-    100014: WITCH_ L Finger0
-    100016: WITCH_ L Finger01
-    100018: WITCH_ L Finger02
-    100020: WITCH_ L Finger1
-    100022: WITCH_ L Finger11
-    100024: WITCH_ L Finger12
-    100026: WITCH_ L Finger2
-    100028: WITCH_ L Finger21
-    100030: WITCH_ L Finger22
-    100032: WITCH_ L Finger3
-    100034: WITCH_ L Finger31
-    100036: WITCH_ L Finger32
-    100038: WITCH_ L Finger4
-    100040: WITCH_ L Finger41
-    100042: WITCH_ L Finger42
-    100044: WITCH_ L Foot
-    100046: WITCH_ L Forearm
-    100048: WITCH_ L Hand
-    100050: WITCH_ L Thigh
-    100052: WITCH_ L Toe0
-    100054: WITCH_ L UpperArm
-    100056: WITCH_ Neck
-    100058: WITCH_ Pelvis
-    100060: WITCH_ Queue de cheval 1
-    100062: WITCH_ R Calf
-    100064: WITCH_ R Clavicle
-    100066: WITCH_ R Finger0
-    100068: WITCH_ R Finger01
-    100070: WITCH_ R Finger02
-    100072: WITCH_ R Finger1
-    100074: WITCH_ R Finger11
-    100076: WITCH_ R Finger12
-    100078: WITCH_ R Finger2
-    100080: WITCH_ R Finger21
-    100082: WITCH_ R Finger22
-    100084: WITCH_ R Finger3
-    100086: WITCH_ R Finger31
-    100088: WITCH_ R Finger32
-    100090: WITCH_ R Finger4
-    100092: WITCH_ R Finger41
-    100094: WITCH_ R Finger42
-    100096: WITCH_ R Foot
-    100098: WITCH_ R Forearm
-    100100: WITCH_ R Hand
-    100102: WITCH_ R Thigh
-    100104: WITCH_ R Toe0
-    100106: WITCH_ R UpperArm
-    100108: WITCH_ Spine
-    100110: WITCH_ Spine1
-    100112: WITCH_BAG
-    100114: WITCH_BAG_nub
-    100116: WITCH_POTION_A
-    100118: WITCH_POTION_B
-    100120: WITCH_SKULL
-    100122: WTCH_CLOAK_1
-    100124: WTCH_CLOAK_2
-    100126: WTCH_CLOAK_3
-    100128: WTCH_CLOAK_4
-    100130: WTCH_CLOAK_5
-    100132: WTCH_CLOAK_6
-    100134: WTCH_SKIRT_BACK_1
-    100136: WTCH_SKIRT_BACK_2
-    100138: WTCH_SKIRT_BACK_3
-    100140: WTCH_SKIRT_FRONT_1
-    100142: WTCH_SKIRT_FRONT_2
-    100144: WTCH_SKIRT_FRONT_3
-    400000: //RootNode
-    400002: WITCH
-    400004: WITCH_STICK
-    400006: WITCH_
-    400008: WITCH_ Head
-    400010: WITCH_ L Calf
-    400012: WITCH_ L Clavicle
-    400014: WITCH_ L Finger0
-    400016: WITCH_ L Finger01
-    400018: WITCH_ L Finger02
-    400020: WITCH_ L Finger1
-    400022: WITCH_ L Finger11
-    400024: WITCH_ L Finger12
-    400026: WITCH_ L Finger2
-    400028: WITCH_ L Finger21
-    400030: WITCH_ L Finger22
-    400032: WITCH_ L Finger3
-    400034: WITCH_ L Finger31
-    400036: WITCH_ L Finger32
-    400038: WITCH_ L Finger4
-    400040: WITCH_ L Finger41
-    400042: WITCH_ L Finger42
-    400044: WITCH_ L Foot
-    400046: WITCH_ L Forearm
-    400048: WITCH_ L Hand
-    400050: WITCH_ L Thigh
-    400052: WITCH_ L Toe0
-    400054: WITCH_ L UpperArm
-    400056: WITCH_ Neck
-    400058: WITCH_ Pelvis
-    400060: WITCH_ Queue de cheval 1
-    400062: WITCH_ R Calf
-    400064: WITCH_ R Clavicle
-    400066: WITCH_ R Finger0
-    400068: WITCH_ R Finger01
-    400070: WITCH_ R Finger02
-    400072: WITCH_ R Finger1
-    400074: WITCH_ R Finger11
-    400076: WITCH_ R Finger12
-    400078: WITCH_ R Finger2
-    400080: WITCH_ R Finger21
-    400082: WITCH_ R Finger22
-    400084: WITCH_ R Finger3
-    400086: WITCH_ R Finger31
-    400088: WITCH_ R Finger32
-    400090: WITCH_ R Finger4
-    400092: WITCH_ R Finger41
-    400094: WITCH_ R Finger42
-    400096: WITCH_ R Foot
-    400098: WITCH_ R Forearm
-    400100: WITCH_ R Hand
-    400102: WITCH_ R Thigh
-    400104: WITCH_ R Toe0
-    400106: WITCH_ R UpperArm
-    400108: WITCH_ Spine
-    400110: WITCH_ Spine1
-    400112: WITCH_BAG
-    400114: WITCH_BAG_nub
-    400116: WITCH_POTION_A
-    400118: WITCH_POTION_B
-    400120: WITCH_SKULL
-    400122: WTCH_CLOAK_1
-    400124: WTCH_CLOAK_2
-    400126: WTCH_CLOAK_3
-    400128: WTCH_CLOAK_4
-    400130: WTCH_CLOAK_5
-    400132: WTCH_CLOAK_6
-    400134: WTCH_SKIRT_BACK_1
-    400136: WTCH_SKIRT_BACK_2
-    400138: WTCH_SKIRT_BACK_3
-    400140: WTCH_SKIRT_FRONT_1
-    400142: WTCH_SKIRT_FRONT_2
-    400144: WTCH_SKIRT_FRONT_3
-    2300000: WITCH
-    2300002: WITCH_STICK
-    3300000: WITCH
-    3300002: WITCH_STICK
-    4300000: WITCH
-    4300002: WITCH_STICK
-    7400000: Take 001
-    7400002: Take 0010
-    7400004: Take 0011
-    7400006: Take 0012
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: WITCH
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: WITCH
+  - first:
+      1: 100004
+    second: WITCH_STICK
+  - first:
+      1: 100006
+    second: WITCH_
+  - first:
+      1: 100008
+    second: WITCH_ Head
+  - first:
+      1: 100010
+    second: WITCH_ L Calf
+  - first:
+      1: 100012
+    second: WITCH_ L Clavicle
+  - first:
+      1: 100014
+    second: WITCH_ L Finger0
+  - first:
+      1: 100016
+    second: WITCH_ L Finger01
+  - first:
+      1: 100018
+    second: WITCH_ L Finger02
+  - first:
+      1: 100020
+    second: WITCH_ L Finger1
+  - first:
+      1: 100022
+    second: WITCH_ L Finger11
+  - first:
+      1: 100024
+    second: WITCH_ L Finger12
+  - first:
+      1: 100026
+    second: WITCH_ L Finger2
+  - first:
+      1: 100028
+    second: WITCH_ L Finger21
+  - first:
+      1: 100030
+    second: WITCH_ L Finger22
+  - first:
+      1: 100032
+    second: WITCH_ L Finger3
+  - first:
+      1: 100034
+    second: WITCH_ L Finger31
+  - first:
+      1: 100036
+    second: WITCH_ L Finger32
+  - first:
+      1: 100038
+    second: WITCH_ L Finger4
+  - first:
+      1: 100040
+    second: WITCH_ L Finger41
+  - first:
+      1: 100042
+    second: WITCH_ L Finger42
+  - first:
+      1: 100044
+    second: WITCH_ L Foot
+  - first:
+      1: 100046
+    second: WITCH_ L Forearm
+  - first:
+      1: 100048
+    second: WITCH_ L Hand
+  - first:
+      1: 100050
+    second: WITCH_ L Thigh
+  - first:
+      1: 100052
+    second: WITCH_ L Toe0
+  - first:
+      1: 100054
+    second: WITCH_ L UpperArm
+  - first:
+      1: 100056
+    second: WITCH_ Neck
+  - first:
+      1: 100058
+    second: WITCH_ Pelvis
+  - first:
+      1: 100060
+    second: WITCH_ Queue de cheval 1
+  - first:
+      1: 100062
+    second: WITCH_ R Calf
+  - first:
+      1: 100064
+    second: WITCH_ R Clavicle
+  - first:
+      1: 100066
+    second: WITCH_ R Finger0
+  - first:
+      1: 100068
+    second: WITCH_ R Finger01
+  - first:
+      1: 100070
+    second: WITCH_ R Finger02
+  - first:
+      1: 100072
+    second: WITCH_ R Finger1
+  - first:
+      1: 100074
+    second: WITCH_ R Finger11
+  - first:
+      1: 100076
+    second: WITCH_ R Finger12
+  - first:
+      1: 100078
+    second: WITCH_ R Finger2
+  - first:
+      1: 100080
+    second: WITCH_ R Finger21
+  - first:
+      1: 100082
+    second: WITCH_ R Finger22
+  - first:
+      1: 100084
+    second: WITCH_ R Finger3
+  - first:
+      1: 100086
+    second: WITCH_ R Finger31
+  - first:
+      1: 100088
+    second: WITCH_ R Finger32
+  - first:
+      1: 100090
+    second: WITCH_ R Finger4
+  - first:
+      1: 100092
+    second: WITCH_ R Finger41
+  - first:
+      1: 100094
+    second: WITCH_ R Finger42
+  - first:
+      1: 100096
+    second: WITCH_ R Foot
+  - first:
+      1: 100098
+    second: WITCH_ R Forearm
+  - first:
+      1: 100100
+    second: WITCH_ R Hand
+  - first:
+      1: 100102
+    second: WITCH_ R Thigh
+  - first:
+      1: 100104
+    second: WITCH_ R Toe0
+  - first:
+      1: 100106
+    second: WITCH_ R UpperArm
+  - first:
+      1: 100108
+    second: WITCH_ Spine
+  - first:
+      1: 100110
+    second: WITCH_ Spine1
+  - first:
+      1: 100112
+    second: WITCH_BAG
+  - first:
+      1: 100114
+    second: WITCH_BAG_nub
+  - first:
+      1: 100116
+    second: WITCH_POTION_A
+  - first:
+      1: 100118
+    second: WITCH_POTION_B
+  - first:
+      1: 100120
+    second: WITCH_SKULL
+  - first:
+      1: 100122
+    second: WTCH_CLOAK_1
+  - first:
+      1: 100124
+    second: WTCH_CLOAK_2
+  - first:
+      1: 100126
+    second: WTCH_CLOAK_3
+  - first:
+      1: 100128
+    second: WTCH_CLOAK_4
+  - first:
+      1: 100130
+    second: WTCH_CLOAK_5
+  - first:
+      1: 100132
+    second: WTCH_CLOAK_6
+  - first:
+      1: 100134
+    second: WTCH_SKIRT_BACK_1
+  - first:
+      1: 100136
+    second: WTCH_SKIRT_BACK_2
+  - first:
+      1: 100138
+    second: WTCH_SKIRT_BACK_3
+  - first:
+      1: 100140
+    second: WTCH_SKIRT_FRONT_1
+  - first:
+      1: 100142
+    second: WTCH_SKIRT_FRONT_2
+  - first:
+      1: 100144
+    second: WTCH_SKIRT_FRONT_3
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: WITCH
+  - first:
+      4: 400004
+    second: WITCH_STICK
+  - first:
+      4: 400006
+    second: WITCH_
+  - first:
+      4: 400008
+    second: WITCH_ Head
+  - first:
+      4: 400010
+    second: WITCH_ L Calf
+  - first:
+      4: 400012
+    second: WITCH_ L Clavicle
+  - first:
+      4: 400014
+    second: WITCH_ L Finger0
+  - first:
+      4: 400016
+    second: WITCH_ L Finger01
+  - first:
+      4: 400018
+    second: WITCH_ L Finger02
+  - first:
+      4: 400020
+    second: WITCH_ L Finger1
+  - first:
+      4: 400022
+    second: WITCH_ L Finger11
+  - first:
+      4: 400024
+    second: WITCH_ L Finger12
+  - first:
+      4: 400026
+    second: WITCH_ L Finger2
+  - first:
+      4: 400028
+    second: WITCH_ L Finger21
+  - first:
+      4: 400030
+    second: WITCH_ L Finger22
+  - first:
+      4: 400032
+    second: WITCH_ L Finger3
+  - first:
+      4: 400034
+    second: WITCH_ L Finger31
+  - first:
+      4: 400036
+    second: WITCH_ L Finger32
+  - first:
+      4: 400038
+    second: WITCH_ L Finger4
+  - first:
+      4: 400040
+    second: WITCH_ L Finger41
+  - first:
+      4: 400042
+    second: WITCH_ L Finger42
+  - first:
+      4: 400044
+    second: WITCH_ L Foot
+  - first:
+      4: 400046
+    second: WITCH_ L Forearm
+  - first:
+      4: 400048
+    second: WITCH_ L Hand
+  - first:
+      4: 400050
+    second: WITCH_ L Thigh
+  - first:
+      4: 400052
+    second: WITCH_ L Toe0
+  - first:
+      4: 400054
+    second: WITCH_ L UpperArm
+  - first:
+      4: 400056
+    second: WITCH_ Neck
+  - first:
+      4: 400058
+    second: WITCH_ Pelvis
+  - first:
+      4: 400060
+    second: WITCH_ Queue de cheval 1
+  - first:
+      4: 400062
+    second: WITCH_ R Calf
+  - first:
+      4: 400064
+    second: WITCH_ R Clavicle
+  - first:
+      4: 400066
+    second: WITCH_ R Finger0
+  - first:
+      4: 400068
+    second: WITCH_ R Finger01
+  - first:
+      4: 400070
+    second: WITCH_ R Finger02
+  - first:
+      4: 400072
+    second: WITCH_ R Finger1
+  - first:
+      4: 400074
+    second: WITCH_ R Finger11
+  - first:
+      4: 400076
+    second: WITCH_ R Finger12
+  - first:
+      4: 400078
+    second: WITCH_ R Finger2
+  - first:
+      4: 400080
+    second: WITCH_ R Finger21
+  - first:
+      4: 400082
+    second: WITCH_ R Finger22
+  - first:
+      4: 400084
+    second: WITCH_ R Finger3
+  - first:
+      4: 400086
+    second: WITCH_ R Finger31
+  - first:
+      4: 400088
+    second: WITCH_ R Finger32
+  - first:
+      4: 400090
+    second: WITCH_ R Finger4
+  - first:
+      4: 400092
+    second: WITCH_ R Finger41
+  - first:
+      4: 400094
+    second: WITCH_ R Finger42
+  - first:
+      4: 400096
+    second: WITCH_ R Foot
+  - first:
+      4: 400098
+    second: WITCH_ R Forearm
+  - first:
+      4: 400100
+    second: WITCH_ R Hand
+  - first:
+      4: 400102
+    second: WITCH_ R Thigh
+  - first:
+      4: 400104
+    second: WITCH_ R Toe0
+  - first:
+      4: 400106
+    second: WITCH_ R UpperArm
+  - first:
+      4: 400108
+    second: WITCH_ Spine
+  - first:
+      4: 400110
+    second: WITCH_ Spine1
+  - first:
+      4: 400112
+    second: WITCH_BAG
+  - first:
+      4: 400114
+    second: WITCH_BAG_nub
+  - first:
+      4: 400116
+    second: WITCH_POTION_A
+  - first:
+      4: 400118
+    second: WITCH_POTION_B
+  - first:
+      4: 400120
+    second: WITCH_SKULL
+  - first:
+      4: 400122
+    second: WTCH_CLOAK_1
+  - first:
+      4: 400124
+    second: WTCH_CLOAK_2
+  - first:
+      4: 400126
+    second: WTCH_CLOAK_3
+  - first:
+      4: 400128
+    second: WTCH_CLOAK_4
+  - first:
+      4: 400130
+    second: WTCH_CLOAK_5
+  - first:
+      4: 400132
+    second: WTCH_CLOAK_6
+  - first:
+      4: 400134
+    second: WTCH_SKIRT_BACK_1
+  - first:
+      4: 400136
+    second: WTCH_SKIRT_BACK_2
+  - first:
+      4: 400138
+    second: WTCH_SKIRT_BACK_3
+  - first:
+      4: 400140
+    second: WTCH_SKIRT_FRONT_1
+  - first:
+      4: 400142
+    second: WTCH_SKIRT_FRONT_2
+  - first:
+      4: 400144
+    second: WTCH_SKIRT_FRONT_3
+  - first:
+      23: 2300000
+    second: WITCH
+  - first:
+      23: 2300002
+    second: WITCH_STICK
+  - first:
+      33: 3300000
+    second: WITCH
+  - first:
+      33: 3300002
+    second: WITCH_STICK
+  - first:
+      43: 4300000
+    second: WITCH
+  - first:
+      43: 4300002
+    second: WITCH_STICK
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      74: 7400002
+    second: Take 0010
+  - first:
+      74: 7400004
+    second: Take 0011
+  - first:
+      74: 7400006
+    second: Take 0012
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: WITCH
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -184,7 +502,7 @@ ModelImporter:
       name: WITCH_STICK_PROPS
     second: {fileID: 2100000, guid: 8701def21b7a4e54589d6327158a172e, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -201,6 +519,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -215,19 +534,31 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
@@ -235,10 +566,30 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 89aa947b276a75846af83c472840570a
+  - bc2b06e3865c6904da240ffe793c97ff
+  - f09863e30fe11ae4f80e3de9882fbd0f
+  - b004c434e2a83c441ad338c30b0a80ea
+  - 41b0e4c3114d14c4b860b4f29d0c79a6
+  - c73405c01e00ae2449f685be869d7474
+  - 9be7271aae3447e4ebe3478f3f9f29e0
+  - 4c07dea9faaaf4f42acd8ffd3060e248
+  - 0bd1224c89ea9f3499e6206a10c612fa
+  - d4627a0b163723a4992a5b1f9d338497
+  - 8757ddb6e6aff744695c1cf904e79d0d
+  - e90f0f7f8f7c202458c1f81df6894ae1
+  - 2619af71b965cb849b6e34176eb42b41
+  - 29032d08d16e8bb42a3c8436acccab52
+  - 067c329a29151554580eb42976d45e03
+  - 216ce0f9a8b5ee74faf78f6519c667f6
+  - ceeef2ea8cf1f914d8ce19829b97b6f1
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -248,14 +599,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 1
   userData: 
   assetBundleName: 
